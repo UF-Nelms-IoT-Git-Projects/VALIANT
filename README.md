@@ -21,3 +21,23 @@ Example :
 The TVLA values for each internal node are dumped to a file named : 'tvla_<module_name>.csv' inside 'results_updated' folder.
 
 Overall = XXXXX -- denotes the cumulative sum of TVLA values of all internal node of the netlist
+
+
+**BibTeX**
+```
+@ARTICLE{10325657,
+  author={Sadhukhan, Rajat and Saha, Sayandeep and Paria, Sudipta and Bhunia, Swarup and Mukhopadhyay, Debdeep},
+  journal={IEEE Transactions on Computers}, 
+  title={VALIANT: An EDA Flow for Side-Channel Leakage Evaluation and Tailored Protection}, 
+  year={2024},
+  volume={73},
+  number={2},
+  pages={436-450},
+  keywords={Logic gates;Codes;Standards;Circuit faults;Very large scale integration;Design automation;Computer science;Test Vector Leakage Assessment;domain-oriented-masking;side channel attack;EDA;protection},
+  doi={10.1109/TC.2023.3333164}}
+
+```
+
+**Text**
+```
+R. Sadhukhan, S. Saha, S. Paria, S. Bhunia and D. Mukhopadhyay, "VALIANT: An EDA Flow for Side-Channel Leakage Evaluation and Tailored Protection," in IEEE Transactions on Computers, vol. 73, no. 2, pp. 436-450, Feb. 2024, doi: 10.1109/TC.2023.3333164.
