@@ -8,9 +8,9 @@ Copyright: University of Florida, IIT Kharagpur
 To calculate TVLA for each node of a gate-level netlist the following steps need to be followed:
 
 
-    For Combinational Circuit, ../src/tvla <gate_level_netlist.v> <no_of_traces> <std_cell_lib.v> <TOP_MODULE_NAME> -genstimulus
+    For Combinational Circuit, ../src/tvla <gate_level_netlist.v> <no_of_traces> <std_cell.lib> <TOP_MODULE_NAME> -genstimulus
 
-    For Sequential Circuit, ../src/tvla <gate_level_netlist.v> <no_of_traces> <std_cell_lib.v> <TOP_MODULE_NAME> -genstimulus seq 0.5 -fullscan <CLK_NAME> <RST_NAME> <1(if active high)/0(if active low)>
+    For Sequential Circuit, ../src/tvla <gate_level_netlist.v> <no_of_traces> <std_cell.lib> <TOP_MODULE_NAME> -genstimulus seq 0.5 -fullscan <CLK_NAME> <RST_NAME> <1(if active high)/0(if active low)>
 
 Example :
 
